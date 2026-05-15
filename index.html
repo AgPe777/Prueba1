@@ -1,11 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Futurista</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>HOLA</h1>
+
+  <div class="background">
+    <div class="shape shape1"></div>
+    <div class="shape shape2"></div>
+  </div>
+
+  <div class="container">
+    
+    <div class="left-panel">
+      <div class="content">
+        <h1>Bienvenido</h1>
+        <p>
+          Accede a tu plataforma segura y administra todo desde un solo lugar.
+        </p>
+      </div>
+    </div>
+
+    <div class="right-panel">
+      <form class="login-form">
+        
+        <h2>Iniciar Sesión</h2>
+
+        <div class="input-box">
+          <input type="email" required>
+          <label>Correo Electrónico</label>
+        </div>
+
+        <div class="input-box">
+          <input type="password" required>
+          <label>Contraseña</label>
+        </div>
+
+        <div class="options">
+          <label>
+            <input type="checkbox">
+            Recordarme
+          </label>
+
+          <a href="#">¿Olvidaste tu contraseña?</a>
+        </div>
+
+        <button type="submit">Entrar</button>
+
+        <div class="divider">
+          <span>o continuar con</span>
+        </div>
+
+        <div class="social-buttons">
+          <button class="google">Google</button>
+          <button class="github">GitHub</button>
+        </div>
+
+        <p class="register">
+          ¿No tienes cuenta?
+          <a href="#">Crear cuenta</a>
+        </p>
+
+      </form>
+    </div>
+
+  </div>
+
 </body>
 </html>
